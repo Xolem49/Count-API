@@ -2,8 +2,9 @@ Requirements : Docker
 
 USAGE :
 
-cd Count-API-master
-docker-compose up
+--> cd /project/master/root
+
+--> docker-compose up
 
 counter API can be found at http://localhost:5000/count
 
