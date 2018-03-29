@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/show')
 def show():
-    r = requests.get('http://localhost:5000/count')
+    r = requests.get('http://count:5000/count')
     result = "The result returned by the counter Webservice is : " + r.text
     return result
 

@@ -1,0 +1,18 @@
+version: "3"
+services:
+
+  count:
+    image: counter
+    ports:
+      - "5000:5000"
+    networks:
+      - webnet
+  
+  show:
+    image: show
+    ports:
+      - "5001:5000"
+    networks:
+      - webnet
+networks:
+  webnet: 
