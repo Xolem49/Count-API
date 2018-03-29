@@ -2,7 +2,7 @@ Requirements : Docker
 
 USAGE :
 
---> cd /project/master/root
+--> cd Count-API-master
 
 --> docker-compose up
 
